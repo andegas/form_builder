@@ -1,0 +1,64 @@
+{
+  "data": {
+    "formItemList": [
+      "input",
+      "textarea",
+      "select"
+    ],
+    "createdForms": [
+       "form 1",
+       "form 2"
+    ],
+    "form": {
+      "input": {
+        "tagName": "input",
+        "type": [
+          "text",
+          "password",
+          "email",
+          "number",
+          "radio",
+          "checkbox",
+          "button",
+          "submit"
+        ],
+        "name": "",
+        "value": "",
+        "placeholder": "",
+        "label": "",
+        "validation": [
+          "required",
+          "min-length",
+          "max-length"
+        ]
+      },
+      "textarea": {
+        "tagName": "textarea",
+        "type": "",
+        "name": "",
+        "value": "",
+        "placeholder": "",
+        "label": "",
+        "validation": [
+          "required",
+          "min-length",
+          "max-length"
+        ]
+      },
+      "select": {
+        "tagName": "select",
+        "type": "",
+        "name": "",
+        "value": "",
+        "label": "",
+        "option": {
+          "value": "",
+          "label": ""
+        },
+        "validation": [
+          "required"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+input:focus,
+select:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.plus_icon {
+    font-weight: 600;
+    color: green;
+    text-align: center;
+}
+a:hover {
+    text-decoration: none
+}
+.form_items{
+    background-color: #203139;
+    height: 95vh;
+}
+.form_items input{
+    color: #e3e3e3;
+    font-size: 25px;
+    font-weight: bold;
+}
+.form_items input:hover{
+    color: #e3e3e3;
+    margin-left: 10px;
+    transition: .5s;
+}
+.f_item{
+    border-bottom: 1px solid #e3e3e3;
+}
+.btn-submit{
+    background-color: #203139;
+    color: #e3e3e3;
+}
+.btn-submit:hover{
+    opacity: .9;
+    color: #e3e3e3;
+    transition: ease-in .3s;
+}
+.pointer{ 
+    cursor: pointer;
+}
+input.btn {
+    text-transform: capitalize;
+}
